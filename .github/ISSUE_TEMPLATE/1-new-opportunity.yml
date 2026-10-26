@@ -1,0 +1,49 @@
+name: "New opportunity"
+description: "Suggest a programme, fellowship, research internship, tech job, hackathon or event."
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Every submission is checked against the official page before it is listed.
+        **Do not post anyone's e-mail, phone number or personal profile link.**
+
+  - type: input
+    id: official_url
+    attributes:
+      label: Official URL
+      description: >
+        The official page (university, institute, government body, fellowship organisation) or the employer's own
+        job posting (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable…). Aggregator articles and
+        social-media posts are not accepted as the source.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - program
+        - swe_job
+        - phd_postdoc
+        - hackathon
+        - event
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Anything that helps us check it quickly, such as the deadline, eligibility or region.
+      placeholder: "e.g. Open to Indian undergraduates, closes 2027-01-15"
+
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: Privacy
+      options:
+        - label: "I am not posting anyone's personal contact details (e-mail, phone, profile link)."
+          required: true
