@@ -1,18 +1,24 @@
 <!-- Generated from the Roziqair catalog. Do not edit by hand: open an issue instead (see CONTRIBUTING.md). -->
 
-![Roziqair: fellowships, PhD, research and career opportunities for India](assets/hero.png)
+<a href="https://roziqair.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png"><img src="assets/hero.png" width="100%" alt="Roziqair: fellowships, PhD, research and career opportunities for India. Open the live app at roziqair.vercel.app"></picture></a>
 
-# not-awesome-indian-opportunities
+# Not-Awesome Indian Opportunities
 
 **Fellowships, research internships, funded Master's, PhD positions and tech jobs for Indian students. Every listing links to its official source.**
 
-Not awesome, just accurate: no reposts, no agencies, no paid listings.
+Not awesome, just accurate: no reposts, no agencies, no paid listings. _Updated 2026-10-26 · 1,130 listings._
 
-### 👉 [Open the live app: roziqair.vercel.app](https://roziqair.vercel.app)
+<table><tr><td>
 
-Search and filter, save opportunities, back up your list and add deadlines to your calendar.
+**The same listings, in the [Roziqair app](https://roziqair.vercel.app):**
 
-_Updated 2026-10-26 · 1,130 listings._
+🔎 **Search & filter** every listing instantly<br>
+☆ **Save a shortlist** that stays on your device, no sign-up<br>
+📅 **Add deadlines** to Google Calendar, or download them all as one `.ics` file
+
+**[Open roziqair.vercel.app →](https://roziqair.vercel.app)**
+
+</td></tr></table>
 
 ## Browse
 
@@ -61,12 +67,12 @@ Found an opportunity, a mistake or a suspicious scheme? Open an issue with one o
 
 No real opportunity asks you to pay for a guaranteed seat, offer letter or certificate. Read the common warning signs in [`safety/scam-patterns.md`](safety/scam-patterns.md), and the warnings in the app: [roziqair.vercel.app/warnings](https://roziqair.vercel.app/warnings).
 
-## For developers
+## For developers and learners
 
-[`examples/`](examples/) has small, dependency-free scripts that read the public, documented job-board APIs of Greenhouse and Lever, with notes on fetching responsibly. They are teaching examples, not the Roziqair pipeline.
+[`app.py`](app.py) is a beginner-friendly, dependency-free Python 3.10+ script: `python app.py stats` counts the listings and shows the nearest deadlines, `python app.py closing --days 14` lists what closes soon, and `python app.py greenhouse <board-token> --india` reads a company's public job board. [`examples/`](examples/) has the same API calls in Node.js and Python, with notes on fetching responsibly. Both are teaching examples, not the Roziqair pipeline.
 
 ## Licence
 
-The listings and documentation are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) ([`LICENSE`](LICENSE)): share and adapt them for non-commercial use, with credit to Roziqair and a link to this repository. The code in [`examples/`](examples/) is MIT-licensed ([`examples/LICENSE`](examples/LICENSE)). Programme names, logos and the linked pages belong to their organisers.
+The listings and documentation are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) ([`LICENSE`](LICENSE)): share and adapt them for non-commercial use, with credit to Roziqair and a link to [this repository](https://github.com/kasimali67/Not-awesome-Indian-opportunities). The code in [`app.py`](app.py) and [`examples/`](examples/) is MIT-licensed ([`examples/LICENSE`](examples/LICENSE)). Programme names, logos and the linked pages belong to their organisers.
 
 Deadlines and eligibility change. Always confirm on the official page before you apply or pay anything.
