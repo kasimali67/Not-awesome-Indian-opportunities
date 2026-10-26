@@ -1,0 +1,35 @@
+name: "Removal request"
+description: "Ask us to remove a listing that is closed, outdated, wrong, or contains your personal data."
+labels: ["removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Removal requests are reviewed within a few days. Listings that contain your personal data are removed first.
+
+  - type: input
+    id: listing_url
+    attributes:
+      label: Listing
+      description: The Roziqair page, or the row in this repository's listings.
+      placeholder: "https://roziqair.vercel.app/p/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - closed
+        - outdated
+        - incorrect
+        - my personal data
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
