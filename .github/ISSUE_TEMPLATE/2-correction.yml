@@ -1,0 +1,41 @@
+name: "Correction"
+description: "Report a wrong deadline, eligibility rule, name or link on an existing listing."
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include the listing, what is wrong, and the official source. Corrections without an official source
+        can't be applied.
+
+  - type: input
+    id: listing_url
+    attributes:
+      label: Listing
+      description: The Roziqair page, or the row in this repository's listings.
+      placeholder: "https://roziqair.vercel.app/p/..."
+    validations:
+      required: true
+
+  - type: input
+    id: wrong_field
+    attributes:
+      label: What is wrong
+      placeholder: "e.g. deadline, eligibility, organisation name"
+    validations:
+      required: true
+
+  - type: input
+    id: official_source
+    attributes:
+      label: Official source URL
+      description: The official page that shows the correct information.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: The correct value and any other context.
