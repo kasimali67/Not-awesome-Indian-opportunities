@@ -1,0 +1,36 @@
+name: "Caution report"
+description: "Report a suspicious domain or a scheme that charges students to apply or to work."
+labels: ["caution-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **Do not paste links to the suspicious site.** Write the domain like `example[.]com` instead.
+
+        Reports are reviewed by hand and worded as caution, never as an accusation. Suspicious domains are never linked.
+
+  - type: input
+    id: domain_or_name
+    attributes:
+      label: Domain or name as circulated
+      description: Write the domain defanged, e.g. `example[.]com`, or the name as it appears in forwards.
+      placeholder: "example[.]com"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: red_flags
+    attributes:
+      label: Red flags you noticed
+      options:
+        - label: "A fee was requested (application, registration, deposit, certificate…)"
+        - label: "Only WhatsApp or Telegram: no official website or work e-mail"
+        - label: "Only a personal e-mail address (Gmail, Yahoo, Outlook…)"
+        - label: "A paid course or training presented as a job or internship"
+        - label: "Something else (describe below)"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: What you saw
+      description: Describe it without pasting links to the suspicious site. Write domains defanged (`example[.]com`).
