@@ -4,9 +4,20 @@
 
 # Not-Awesome Indian Opportunities
 
-**Fellowships, research internships, funded Master's, PhD positions and tech jobs for Indian students. Every listing links to its official source.**
+### Not awesome, just accurate.
 
-Not awesome, just accurate: no reposts, no agencies, no paid listings. _Updated 2026-10-26 · 1,130 listings._
+**Fellowships, research internships, funded Master's, PhD positions and tech jobs for Indian students. Every listing links to its official source.** _Updated 2026-10-26 · 1,130 listings._
+
+> [!NOTE]
+> **What you won't find here**
+>
+> ❌ **No `#interested` comment bait.** We don't repost LinkedIn engagement traps or screenshot dumps that ask you to comment for reach.
+>
+> ❌ **No aggregator spam-bins.** No reposts, no third-party placement agencies, and nothing that charges you. Every job comes from the employer's own board, with the date it was last seen.
+>
+> ❌ **No paywalls or login walls.** Free and public, with no account to create. Your saved list stays on your device, and visits are counted only as cookie-free totals: no data harvesting.
+>
+> _Roziqair gives you the verified lead. Not awesome, just accurate._
 
 <table><tr><td>
 
@@ -76,3 +87,7 @@ No real opportunity asks you to pay for a guaranteed seat, offer letter or certi
 The listings and documentation are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) ([`LICENSE`](LICENSE)): share and adapt them for non-commercial use, with credit to Roziqair and a link to [this repository](https://github.com/kasimali67/Not-awesome-Indian-opportunities). The code in [`app.py`](app.py) and [`examples/`](examples/) is MIT-licensed ([`examples/LICENSE`](examples/LICENSE)). Programme names, logos and the linked pages belong to their organisers.
 
 Deadlines and eligibility change. Always confirm on the official page before you apply or pay anything.
+
+---
+
+<p align="center"><b>Not awesome, just accurate.</b><br><sub>Verified leads for Indian students, every one linked to its official source · <a href="https://roziqair.vercel.app">roziqair.vercel.app</a></sub></p>
